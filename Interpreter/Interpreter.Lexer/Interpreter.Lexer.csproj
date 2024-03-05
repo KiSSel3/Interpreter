@@ -10,4 +10,8 @@
       <ProjectReference Include="..\Interpreter.Domain\Interpreter.Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Errors\" />
+    </ItemGroup>
+
 </Project>

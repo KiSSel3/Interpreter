@@ -1,0 +1,8 @@
+(display "qwerty") ;вывод строки "qwerty" в консоль
+(newline)
+
+(define a 55)
+(define b 7ff)
+
+(display (+ a b)) ;вывод суммы a и b в консоль
+(newline)
