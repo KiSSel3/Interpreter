@@ -21,10 +21,13 @@ public static class LispTokenTypes
             new TokenType("binary constant", @"#b[01]+"),
             new TokenType("octal constant", @"#o[0-7]+"),
             new TokenType("hexadecimal constant", @"#x[0-9A-Fa-f]+"),
-            new TokenType("char constant", @"#\\[a-zA-Z]"),
+            new TokenType("char constant", @"#\\[a-zA-Z1-9]"),
 
             new TokenType("true constant", @"#t"),
             new TokenType("false constant", @"#f"),
+            
+            //TODO: помениять название и переместить в другой лист
+            new TokenType("symbols constant", @"'\([^)]+\)|'[^ )]+"),
         };
 
         Operation = new List<TokenType>()
@@ -41,7 +44,7 @@ public static class LispTokenTypes
             new TokenType("arithmetic operation", @"\<\="),
             new TokenType("arithmetic operation", @"\>\="),
         };
-
+        
         Keywords = new List<TokenType>()
         {
             new TokenType("key word", @"import"),
@@ -153,10 +156,9 @@ public static class LispTokenTypes
         
         SpecialSymbols = new List<TokenType>()
         {
-            new TokenType("special symbol", @"#"),
             new TokenType("special symbol", @","),
-            new TokenType("special symbol", @"'"),
             new TokenType("special symbol", @"`"),
+            new TokenType("special symbol", @"'"),
         };
     }
 

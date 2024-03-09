@@ -1,8 +1,19 @@
+#A
+#\A
+#\AAA
+#\1
+#\1221
+
+1+3i
+((#b45354)
+(#o7695)
+(#\A)
 (display "qwerty") ;вывод строки "qwerty" в консоль
 (newline)
-
+(#)
 (define a 55)
 (define b 7ff)
+('asdasd)
 
 (display (+ a b)) ;вывод суммы a и b в консоль
 (newline)

@@ -22,12 +22,15 @@ public Interpreter()
     public void InterpretationCode(string fileName)
     {
         ReadFile(fileName);
-
         Lexer.Lexer lexer = new Lexer.Lexer(_pragramCode);
+
+        bool isSuccessful = lexer.Tokenization();
+        if (!isSuccessful)
+        {
+            Output.PrintTokenErrors(_pragramCode, lexer.ErrorList);
+        }
         
-        lexer.Tokenization();
-        
-        Output.PrintTokensTable(lexer.Tokens);
+        Output.PrintTokensTable(_pragramCode, lexer.Tokens);
     }
 
     private void ReadFile(string fileName)
