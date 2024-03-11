@@ -54,7 +54,8 @@ public class Lexer
                     }
                     else
                     {
-                        throw new Exception("There was an unhandled error with the token type");
+                        TokenError firstNumberError = new TokenError(value, match.Index, "Invalid symbols");
+                        ErrorList.Add(firstNumberError);
                     }
                 }
                 

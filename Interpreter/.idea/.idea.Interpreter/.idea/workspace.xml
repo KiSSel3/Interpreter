@@ -9,11 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="831b33f6-42f2-4a1a-9100-df650366d03d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter/Interpreter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Interpreter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter/Interpreter.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Interpreter.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/TestFiles/Test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/TestFiles/Test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/Tools/Output.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Tools/Output.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,29 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Interpreter.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "XThreadsFramesViewSplitterKey": "0.49727768",
-    "git-widget-placeholder": "LexicalAnalyzer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Interpreter.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.49727768&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;LexicalAnalyzer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Kissel\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Kissel\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Interpreter" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -99,6 +97,7 @@
       <workItem from="1709378314045" duration="14379000" />
       <workItem from="1709626187861" duration="4871000" />
       <workItem from="1709750667729" duration="33997000" />
+      <workItem from="1710154797040" duration="955000" />
     </task>
     <servers />
   </component>
@@ -118,24 +117,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs</url>
-          <line>11</line>
-          <properties documentPath="D:\Programming\BSUIR\SixthSemester\TranslationMethods\Interpreter\Interpreter\Interpreter.Lexer\Errors\LexerErrors.cs" initialLine="11" containingFunctionPresentation="Method 'CheckBrackets'">
-            <startOffsets>
-              <option value="250" />
-            </startOffsets>
-            <endOffsets>
-              <option value="304" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

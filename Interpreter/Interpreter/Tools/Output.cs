@@ -49,7 +49,7 @@ public static class Output
     {
         foreach (Token item in tokens)
         {
-            if (item.Type.Value.Equals("identifier"))
+            if (item.Type is not null && item.Type.Value.Equals("identifier"))
             {
                 Console.Write(item.Id);
             }
