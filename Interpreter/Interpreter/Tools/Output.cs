@@ -45,6 +45,23 @@ public static class Output
         
     }
 
+    public static void PrintLexemes(List<Token> tokens)
+    {
+        foreach (Token item in tokens)
+        {
+            if (item.Type.Value.Equals("identifier"))
+            {
+                Console.Write(item.Id);
+            }
+            else
+            {
+                Console.Write(item.Value);
+            }
+
+            Console.Write(" ");
+        }
+    }
+
     private static Tuple<int, int> GetRowAndColumnByPosition(string[] lines, int position)
     {
         int lineStartPosition = 0;

@@ -7,8 +7,13 @@ public class LexerErrors
 {
     
     //TODO: переделать возврат ошибки
-    public Tuple<Token, string>? CheckBrackets(List<Token> tokens)
+    public TokenError? CheckBrackets(List<Token> tokens)
     {
+        if (tokens.Count != 0 && !tokens[0].Value.Equals("("))
+        {
+            return new TokenError("(", 0, "Absent '('");
+        }
+        
         Stack<Token> stack = new Stack<Token>();
 
         foreach (Token item in tokens)
@@ -21,13 +26,20 @@ public class LexerErrors
             {
                 if (stack.Count == 0 || stack.Pop().Value != "(")
                 {
-                    return new Tuple<Token, string>(item, "Error in bracketed sequence");
+                    return new TokenError(item.Value, item.Position, "Error in bracketed sequence");
                 }
             }
         }
 
         if (stack.Count != 0)
-            return new Tuple<Token, string>(stack.Peek(), "Error in bracketed sequence");
+        {
+            return new TokenError(stack.Peek().Value, stack.Peek().Position, "Error in bracketed sequence");
+        }
+
+        if (tokens.Count != 0 && !tokens[tokens.Count - 1].Value.Equals(")"))
+        {
+            return new TokenError("(", tokens[tokens.Count - 1].Position, "Absent ')'");
+        }
 
         return null;
     }

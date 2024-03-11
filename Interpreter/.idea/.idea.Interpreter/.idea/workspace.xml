@@ -8,17 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831b33f6-42f2-4a1a-9100-df650366d03d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interpreter.Domain/Models/TokenError.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter/TestFiles/Test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Exceptions/TokenTypeException.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Interpreter.Lexer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Interpreter.Lexer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Storage/LispTokenTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Storage/LispTokenTypes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/Interpreter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Interpreter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/Interpreter.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Interpreter.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter/TestFiles/Test0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/TestFiles/Test0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/Tools/Output.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Tools/Output.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +98,7 @@
       <workItem from="1709293573817" duration="6608000" />
       <workItem from="1709378314045" duration="14379000" />
       <workItem from="1709626187861" duration="4871000" />
-      <workItem from="1709750667729" duration="29653000" />
+      <workItem from="1709750667729" duration="33997000" />
     </task>
     <servers />
   </component>
@@ -128,17 +123,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs</url>
-          <line>29</line>
-          <properties documentPath="D:\Programming\BSUIR\SixthSemester\TranslationMethods\Interpreter\Interpreter\Interpreter.Lexer\Lexer.cs" initialLine="29" containingFunctionPresentation="Method 'Tokenization'">
+          <url>file://$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs</url>
+          <line>11</line>
+          <properties documentPath="D:\Programming\BSUIR\SixthSemester\TranslationMethods\Interpreter\Interpreter\Interpreter.Lexer\Errors\LexerErrors.cs" initialLine="11" containingFunctionPresentation="Method 'CheckBrackets'">
             <startOffsets>
-              <option value="750" />
+              <option value="250" />
             </startOffsets>
             <endOffsets>
-              <option value="775" />
+              <option value="304" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

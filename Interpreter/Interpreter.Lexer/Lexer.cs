@@ -44,13 +44,13 @@ public class Lexer
                     
                     if (value[0] == '#')
                     {
-                       TokenError newError = _lexerErrors.CheckSharpError(value, match.Index);
-                       ErrorList.Add(newError);
+                       TokenError sharpError = _lexerErrors.CheckSharpError(value, match.Index);
+                       ErrorList.Add(sharpError);
                     }
                     else if(char.IsDigit(value[0]))
                     {
-                        TokenError newError = _lexerErrors.CheckFirstNumberError(value, match.Index);
-                        ErrorList.Add(newError);
+                        TokenError firstNumberError = _lexerErrors.CheckFirstNumberError(value, match.Index);
+                        ErrorList.Add(firstNumberError);
                     }
                     else
                     {
@@ -63,6 +63,14 @@ public class Lexer
             }
         }
 
+        TokenError bracketsError = _lexerErrors.CheckBrackets(Tokens);
+        if (bracketsError is not null)
+        {
+            isSuccessful = false;
+            
+            ErrorList.Add(bracketsError);
+        }
+        
         return isSuccessful;
     }
     

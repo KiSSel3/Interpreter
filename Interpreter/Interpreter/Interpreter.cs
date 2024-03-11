@@ -31,6 +31,8 @@ public Interpreter()
         }
         
         Output.PrintTokensTable(_pragramCode, lexer.Tokens);
+        
+        Output.PrintLexemes(lexer.Tokens);
     }
 
     private void ReadFile(string fileName)
