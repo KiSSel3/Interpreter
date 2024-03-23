@@ -8,7 +8,6 @@ public static class LispTokenTypes
     public static List<TokenType> Operation { get; }
     public static List<TokenType> Keywords { get; }
     public static List<TokenType> Variables { get; }
-    public static List<TokenType> SpecialSymbols { get; }
     
     static LispTokenTypes()
     {
@@ -25,9 +24,6 @@ public static class LispTokenTypes
 
             new TokenType("true constant", @"#t"),
             new TokenType("false constant", @"#f"),
-            
-            //TODO: помениять название и переместить в другой лист
-            new TokenType("symbols constant", @"'\([^)]+\)|'[^ )]+"),
         };
 
         Operation = new List<TokenType>()
@@ -153,13 +149,6 @@ public static class LispTokenTypes
         {
             new TokenType("identifier", @"[A-Za-z][A-Za-z0-9_-]*"),
         };
-        
-        SpecialSymbols = new List<TokenType>()
-        {
-            new TokenType("special symbol", @","),
-            new TokenType("special symbol", @"`"),
-            new TokenType("special symbol", @"'"),
-        };
     }
 
     public static List<TokenType> GetAllTokenTypes()
@@ -169,7 +158,6 @@ public static class LispTokenTypes
         allTokenTypes.AddRange(Operation);
         allTokenTypes.AddRange(Constants);
         allTokenTypes.AddRange(Keywords);
-        allTokenTypes.AddRange(SpecialSymbols);
         allTokenTypes.AddRange(Variables);
         
         return allTokenTypes;

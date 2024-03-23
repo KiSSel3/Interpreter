@@ -28,8 +28,7 @@ public class Lexer
     public bool Tokenization()
     {
         bool isSuccessful = true;
-        
-        string pattern = @"(~@|[\[\]{}()~@]|""(?:[\\].|[^\\""])*""?|;.*|[^\s \[\]{}()""~@;]*)";
+        string pattern = @"([\[\]{}()]|""(?:[^""])*""?|;.*|[^\s \[\]{}()"";]*)";
         
         Regex regex = new Regex(pattern);
         foreach (Match match in regex.Matches(_programCode))

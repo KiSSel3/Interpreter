@@ -1,5 +1,2 @@
-'(fdasdf fadf)
-
-1+2i
-
-ыпаыап
+(define a (+ 1 1 1 1))
+(display a)

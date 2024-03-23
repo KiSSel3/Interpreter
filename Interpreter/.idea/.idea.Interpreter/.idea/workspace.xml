@@ -8,8 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831b33f6-42f2-4a1a-9100-df650366d03d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Interpreter/TestFiles/Test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Errors/LexerErrors.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Storage/LispTokenTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Storage/LispTokenTypes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/TestFiles/Test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/TestFiles/Test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter/Tools/Output.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Tools/Output.cs" afterDir="false" />
@@ -46,14 +49,14 @@
     &quot;.NET Project.Interpreter.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.49727768&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.6587838&quot;,
     &quot;git-widget-placeholder&quot;: &quot;LexicalAnalyzer&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -97,7 +100,9 @@
       <workItem from="1709378314045" duration="14379000" />
       <workItem from="1709626187861" duration="4871000" />
       <workItem from="1709750667729" duration="33997000" />
-      <workItem from="1710154797040" duration="955000" />
+      <workItem from="1710154797040" duration="5948000" />
+      <workItem from="1710167302613" duration="9411000" />
+      <workItem from="1711052268976" duration="3695000" />
     </task>
     <servers />
   </component>
@@ -117,5 +122,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

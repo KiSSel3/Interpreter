@@ -1,5 +1,6 @@
 using ConsoleTables;
 using Interpreter.Domain.Models;
+using Interpreter.Lexer.Storage;
 
 namespace Interpreter.Tools;
 
@@ -9,12 +10,14 @@ public static class Output
     {
         string[] lines = programCode.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
         
-        var table = new ConsoleTable("Id", "Value", "Type", "Position");
-        foreach (Token item in tokens)
+        IEnumerable<Token> uniqueTokens = tokens.DistinctBy(t => t.Value);
+        
+        var table = new ConsoleTable("Id", "Value", "Type" /*, "Position"*/);
+        foreach (Token item in uniqueTokens /*tokens*/)
         {
             Tuple<int, int> normalPosition = GetRowAndColumnByPosition(lines, item.Position);
             
-            table.AddRow(item.Id, item.Value, item.Type?.Value ?? "undefined", $"{normalPosition.Item1}:{normalPosition.Item2}");
+            table.AddRow(item.Id, item.Value, item.Type?.Value ?? "undefined" /*, $"{normalPosition.Item1}:{normalPosition.Item2}"*/);
         }
 
         Console.WriteLine(table.ToString());
@@ -49,9 +52,11 @@ public static class Output
     {
         foreach (Token item in tokens)
         {
-            if (item.Type is not null && item.Type.Value.Equals("identifier"))
+            if (item.Type is not null && (item.Type.Value.Equals("identifier") || LispTokenTypes.Constants.Contains(item.Type)))
             {
-                Console.Write(item.Id);
+                string id = tokens.First(t => t.Value.Equals(item.Value)).Id;
+                
+                Console.Write($"id<{id}>");
             }
             else
             {

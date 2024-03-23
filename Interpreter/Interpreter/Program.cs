@@ -2,15 +2,15 @@
 {
     public static void Main(string[] args)
     {
-        // try
-        // {
-        Interpreter.Interpreter interpreter = new Interpreter.Interpreter();
+        try
+        {
+            Interpreter.Interpreter interpreter = new Interpreter.Interpreter();
         
-        interpreter.InterpretationCode("Test1.txt");
-        // }
-        // catch (Exception e)
-        // {
-        //     Console.WriteLine(e);
-        // }
+            interpreter.InterpretationCode("Test1.txt");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
     }
 }

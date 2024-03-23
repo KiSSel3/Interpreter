@@ -5,8 +5,6 @@ namespace Interpreter.Lexer.Errors;
 
 public class LexerErrors
 {
-    
-    //TODO: переделать возврат ошибки
     public TokenError? CheckBrackets(List<Token> tokens)
     {
         if (tokens.Count != 0 && !tokens[0].Value.Equals("("))

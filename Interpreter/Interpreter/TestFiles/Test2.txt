@@ -1,0 +1,17 @@
+(define (fibonacci n)
+  (if (<= n 0)
+      '()
+      (let loop ((i 0)
+                 (prev 0)
+                 (current 1)
+                 (result '()))
+        (if (= i n)
+            (reverse result)
+            (loop (+ i 1)
+                  current
+                  (+ prev current)
+                  (cons prev result))))))
+
+(display "The first 10 Fibonacci numbers: ")
+(display (fibonacci 10))
+(newline)
