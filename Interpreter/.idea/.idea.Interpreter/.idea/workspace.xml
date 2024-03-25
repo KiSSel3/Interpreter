@@ -7,7 +7,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="831b33f6-42f2-4a1a-9100-df650366d03d" name="Changes" comment="" />
+    <list default="true" id="831b33f6-42f2-4a1a-9100-df650366d03d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/BaseExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/CallExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/DefineExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/IfExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/LambdaExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/ListExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/LiteralExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/QuoteExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/SymbolExpr.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Parser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.sln" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,29 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.Interpreter.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.6587838&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;LexicalAnalyzer&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.Interpreter.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "XThreadsFramesViewSplitterKey": "0.6587838",
+    "git-widget-placeholder": "SyntaxAnalyzer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Kissel\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Kissel\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Interpreter" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -93,7 +106,7 @@
       <workItem from="1709750667729" duration="33997000" />
       <workItem from="1710154797040" duration="5948000" />
       <workItem from="1710167302613" duration="9411000" />
-      <workItem from="1711052268976" duration="4306000" />
+      <workItem from="1711052268976" duration="7313000" />
     </task>
     <servers />
   </component>
