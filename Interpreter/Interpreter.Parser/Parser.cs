@@ -6,6 +6,7 @@ namespace Interpreter.Parser;
 public class Parser
 {
     private List<Token> _tokens;
+    private int _currentIndex;
     public List<BaseExpr> Expressions { get; }
 
     public Parser(List<Token> tokens)

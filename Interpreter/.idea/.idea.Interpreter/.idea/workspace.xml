@@ -8,18 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831b33f6-42f2-4a1a-9100-df650366d03d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/BaseExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/CallExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/DefineExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/IfExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/LambdaExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/ListExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/LiteralExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/QuoteExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/SymbolExpr.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.Parser/Parser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Domain/Models/TokenType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Domain/Models/TokenType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Storage/LispTokenTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Storage/LispTokenTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Parser/Parser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Parser/Parser.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +98,7 @@
       <workItem from="1709750667729" duration="33997000" />
       <workItem from="1710154797040" duration="5948000" />
       <workItem from="1710167302613" duration="9411000" />
-      <workItem from="1711052268976" duration="7313000" />
+      <workItem from="1711052268976" duration="10310000" />
     </task>
     <servers />
   </component>
