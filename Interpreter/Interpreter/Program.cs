@@ -6,7 +6,7 @@
         {
             Interpreter.Interpreter interpreter = new Interpreter.Interpreter();
         
-            interpreter.InterpretationCode("Test1.txt");
+            interpreter.InterpretationCode("Test2.txt");
         }
         catch (Exception e)
         {

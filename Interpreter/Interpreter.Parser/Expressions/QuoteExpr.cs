@@ -1,6 +1,6 @@
 namespace Interpreter.Parser.Expressions;
 
-public class QuoteExpr
+public class QuoteExpr : BaseExpr
 {
     public BaseExpr Value { get; }
 

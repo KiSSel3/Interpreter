@@ -1,2 +1,1 @@
-(define a (+ 1 1 1 1))
-(display a)
+(display #b101014)

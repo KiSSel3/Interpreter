@@ -8,15 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831b33f6-42f2-4a1a-9100-df650366d03d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Interpreter.Domain/Errors/SyntaxError.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Interpreter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interpreter.Domain/Models/TokenType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Domain/Models/TokenType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Lexer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter.Lexer/Storage/LispTokenTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Lexer/Storage/LispTokenTypes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Parser/Expressions/QuoteExpr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Parser/Expressions/QuoteExpr.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.Parser/Interpreter.Parser.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Parser/Interpreter.Parser.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter.Parser/Parser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.Parser/Parser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/Interpreter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Interpreter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/Interpreter.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Interpreter.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/TestFiles/Test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/TestFiles/Test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/TestFiles/Test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/TestFiles/Test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter/Tools/Output.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter/Tools/Output.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +40,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KiSSel3"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KiSSel3/Interpreter.git",
+    "accountId": "448cfbe7-4b3d-4a6d-ae7d-ba337b7054b0"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -57,8 +81,8 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Kissel\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
       "C:\\Users\\Kissel\\AppData\\Local\\Symbols\\src"
     ]
   }
@@ -98,13 +122,18 @@
       <workItem from="1709750667729" duration="33997000" />
       <workItem from="1710154797040" duration="5948000" />
       <workItem from="1710167302613" duration="9411000" />
-      <workItem from="1711052268976" duration="10310000" />
+      <workItem from="1711052268976" duration="23446000" />
+      <workItem from="1711377495428" duration="4336000" />
+      <workItem from="1712570129716" duration="2990000" />
+      <workItem from="1712580931391" duration="4074000" />
+      <workItem from="1713780857652" duration="2815000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>

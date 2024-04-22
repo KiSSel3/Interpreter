@@ -1,3 +1,5 @@
+using Interpreter.Domain.Errors;
+using Interpreter.Parser.Expressions;
 using Interpreter.Tools;
 using Microsoft.Extensions.Configuration;
 
@@ -28,11 +30,25 @@ public Interpreter()
         if (!isSuccessful)
         {
             Output.PrintTokenErrors(_pragramCode, lexer.ErrorList);
+            //return;
         }
         
         Output.PrintTokensTable(_pragramCode, lexer.Tokens);
         
         Output.PrintLexemes(lexer.Tokens);
+
+        try
+        {
+            Parser.Parser parser = new Parser.Parser(lexer.Tokens);
+            List<BaseExpr> expressions = parser.Parse();
+            
+            Output.PrintTree(expressions);
+        }
+        catch (SyntaxError ex)
+        {
+            Output.PrintSyntaxError(_pragramCode, ex.Message, ex.Token);
+            return;
+        }
     }
 
     private void ReadFile(string fileName)

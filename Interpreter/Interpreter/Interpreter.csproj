@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Interpreter.Lexer\Interpreter.Lexer.csproj" />
+      <ProjectReference Include="..\Interpreter.Parser\Interpreter.Parser.csproj" />
     </ItemGroup>
 
     <ItemGroup>

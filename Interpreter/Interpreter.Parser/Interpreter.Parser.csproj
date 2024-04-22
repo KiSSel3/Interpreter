@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Interpreter.Domain\Interpreter.Domain.csproj" />
+      <ProjectReference Include="..\Interpreter.Lexer\Interpreter.Lexer.csproj" />
     </ItemGroup>
 
 </Project>

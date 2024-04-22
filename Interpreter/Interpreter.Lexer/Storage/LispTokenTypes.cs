@@ -7,7 +7,9 @@ public static class LispTokenTypes
     public static List<TokenType> Constants { get; }
     public static List<TokenType> Operation { get; }
     public static List<TokenType> Keywords { get; }
-    public static List<TokenType> Variables { get; }
+    
+    public static TokenType Identifier { get; }
+    public static TokenType EOF { get; }
     
     static LispTokenTypes()
     {
@@ -145,20 +147,19 @@ public static class LispTokenTypes
             new TokenType("key word", "symbol",@"str"),
         };
 
-        Variables = new List<TokenType>()
-        {
-            new TokenType("identifier", "symbol",@"[A-Za-z][A-Za-z0-9_-]*"),
-        };
+        Identifier = new TokenType("identifier", "symbol", @"[A-Za-z][A-Za-z0-9_-]*");
+        EOF = new TokenType("end of file", "eof", "eof");
     }
 
     public static List<TokenType> GetAllTokenTypes()
     {
         List<TokenType> allTokenTypes = new List<TokenType>();
         
+        allTokenTypes.Add(EOF);
         allTokenTypes.AddRange(Operation);
         allTokenTypes.AddRange(Constants);
         allTokenTypes.AddRange(Keywords);
-        allTokenTypes.AddRange(Variables);
+        allTokenTypes.Add(Identifier);
         
         return allTokenTypes;
     }

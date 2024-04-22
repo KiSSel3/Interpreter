@@ -28,7 +28,7 @@ public class Lexer
     public bool Tokenization()
     {
         bool isSuccessful = true;
-        string pattern = @"([\[\]{}()]|""(?:[^""])*""?|;.*|[^\s \[\]{}()"";]*)";
+        string pattern = @"([\[\]{}()]|""(?:[^""])*""|;.*|[^\s \[\]{}()"";]*)";
         
         Regex regex = new Regex(pattern);
         foreach (Match match in regex.Matches(_programCode))
@@ -62,7 +62,7 @@ public class Lexer
                 Tokens.Add(newToken);
             }
         }
-
+        
         TokenError bracketsError = _lexerErrors.CheckBrackets(Tokens);
         if (bracketsError is not null)
         {
@@ -70,6 +70,8 @@ public class Lexer
             
             ErrorList.Add(bracketsError);
         }
+        
+        Tokens.Add(new Token(_shortGuidGenerator.GenerateID(), "eof",0, Storage.LispTokenTypes.EOF));
         
         return isSuccessful;
     }
